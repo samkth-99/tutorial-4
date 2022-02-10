@@ -18,7 +18,7 @@ let result;
   } else if ((op) === '%') {
     result = a % b;
   } 
-  else {
+  else { 
     console.log("Operator is invalid");
   }
 console.log(`${a} ${op} ${b} = ${result}`);
